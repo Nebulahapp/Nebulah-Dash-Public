@@ -21,7 +21,7 @@ Current work: finish preference and missing-cover tests, restore passing source 
 - Local JPEG covers, cover reload and Artwork/Library Settings panels.
 - Auto-load covers saved in two checked local slots. This does not enroll storage or enable library writes.
 - Read-only storage review with session-only selection.
-- [Nebulah Link](https://github.com/Nebulah360/Nebulah-Web-App) remains the separate Windows and phone companion. It can explicitly copy cached covers to a selected Dash folder.
+- [Nebulah Link](https://github.com/Nebulahapp/Nebulah-Web-App) remains the separate Windows and phone companion. It can explicitly copy cached covers to a selected Dash folder.
 
 ## Verified
 
@@ -30,9 +30,9 @@ Current work: finish preference and missing-cover tests, restore passing source 
 - Reference console displayed 58 installations with covers. Auto-load Off survived relaunch. On was saved and covers returned.
 - Recorded host syntax, project XML and schema checks passed for the settings work.
 
-Evidence: [current handoff](https://github.com/Nebulah360/Nebulah-Dash/blob/ec82624df225e11264d3080e2953edbb178f2940/docs/HANDOFF.md). Development-repository access required.
+Evidence: [current handoff](https://github.com/Nebulahapp/Nebulah-Dash/blob/ec82624df225e11264d3080e2953edbb178f2940/docs/HANDOFF.md). Development-repository access required.
 
-**Current [source CI](https://github.com/Nebulah360/Nebulah-Dash/actions/runs/38216192962) fails at “Validate project XML and version metadata.”** Windows UI preflight passes; the full source gate does not.
+**Current [source CI](https://github.com/Nebulahapp/Nebulah-Dash/actions/runs/38216192962) fails at “Validate project XML and version metadata.”** Windows UI preflight passes; the full source gate does not.
 
 Structural inspection is not cryptographic signing verification. Independent signing verification of this UI artifact remains unverified. Host checks, builds and targeted console observations do not establish full hardware acceptance.
 
